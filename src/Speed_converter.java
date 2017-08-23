@@ -7,7 +7,6 @@ public class Speed_converter
 	{
 		Scanner sc;
 		int speedKm;
-		int speedM;
 		sc = new Scanner(System.in);
 		System.out.print("Введите скорость км/ч: ");
 		speedKm = sc.nextInt();
