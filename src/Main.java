@@ -9,5 +9,6 @@ public class Main {
 		int num2 = sc.nextInt();
 		int result = num1 - ((num1 / num2) * num2);
 		System.out.println("Остаток от деления: " + result);
+		sc.close();
 	}
 }

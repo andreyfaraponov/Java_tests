@@ -9,6 +9,7 @@ public class file_format
 		String f_name = sc.nextLine();
 		f_name = f_name.replace(' ', '.');
 		System.out.println(f_name);
+		sc.close();
 	}
 
 }
